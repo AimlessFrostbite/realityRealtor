@@ -11,17 +11,24 @@
 <div class="container">
     <h1>Reality Realtor</h1>
 
-    <div class="estimatorForm">
-    <form class="estimator">
+    <form class="estimator" action="homepage.html">
         <label for="income">Monthly Income</label>
-        $<input type="number" placeholder="monthly income"><br>
+        $<input class="income" type="number" placeholder="monthly income"><br>
         <label for="zipcode">Zipcode</label>
         <input type="number" placeholder="zipcode"><br>
         <label for="email">Email</label>
         <input type="email" placeholder="email address"><br>
-        <button type="submit">Find a House</button>
-    </form>    
+        <input class="calculate" type="button">
+    <!-- <input type="submit"> -->
+
+</form>  
+
+<!-- <button class="calculate">Find a House</button>     -->
+
+    
+    <h1 class="bDisplay"></h1>
     </div>
-    </div>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
