@@ -1,4 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5e1da
+  }
+
+/* form section styles */
+
 .container {
-width: 50%;
 margin: 0 auto;
+display: block;
+text-align: center;
+padding: 300px;
+background-color: #40a798;
+border-radius: 20%;
+}
+
+h1 {
+    margin: 30px;
+}
+
+.reality {
+    color: #f5e1da;
+    font-family: 'Open Sans';
+    font-weight: 300;
+
+}
+
+.realty {
+    color: #476268;
+    font-family: 'Bad Script';
+}
+
+.budget {
+    display: none;
+}
+
+.bDisplay {
+    font-family: 'Bad Script';
+}
+
+/* image gallery styles */
+
+.gallery-highlight {
+    width: 80%;
+}
+
+section {
+    margin-top: 40px;
+    display: flex;
+    height: 100vh;
+}
+
+.house-gallery {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.house-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #476268;
+    color: #f5e1da;
+    border-radius: 20%;
+}
+
+.house-preview {
+    display: flex;
+    width: 80%;
+}
+
+.house-preview img {
+    height: 100px;
+    flex-grow: 1;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+img.house-active {
+    opacity: 1;
 }

@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>realityRealtor</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script|Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <div class="container">
-    <h1>Reality Realtor</h1>
+    <h1><span class="reality">Reality </span><span class="realty">Realty</span></h1>
 
     <form class="estimator" action="homepage.html">
         <label for="income">Monthly Income</label>
@@ -18,17 +20,26 @@
         <input type="number" placeholder="zipcode"><br>
         <label for="email">Email</label>
         <input type="email" placeholder="email address"><br>
-        <input class="calculate" type="button">
-    <!-- <input type="submit"> -->
+        <a href="#anchor"><input class="calculate" type="button" value="Find a House"></a>
 
 </form>  
+        </div>
 
-<!-- <button class="calculate">Find a House</button>     -->
-
-    
-    <h1 class="bDisplay"></h1>
+<section id="anchor" class="gallery-section budget">
+    <div class="house-description">
+        <h1 class="bDisplay"></h1>
+        <h4>You could live here!</h1>
     </div>
+    <div class="house-gallery">
+        <img src="images/house1-big.jpg" alt="" class="gallery-highlight">
 
+    <div class="house-preview">
+        <img src="images/house1-small.jpg" alt="" class="house-active">
+        <img src="images/house2-small.jpg" alt="">
+        <img src="images/house3-small.jpg" alt="">
+    </div>
+    </div>
+</section>
     <script src="js/main.js"></script>
 </body>
 </html>
