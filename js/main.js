@@ -1,4 +1,4 @@
-const income = document.querySelector('.income');
+const income = document.querySelector('.input-income');
 const calculate = document.querySelector('.calculate');
 const budgetDisplay = document.querySelector('.bDisplay');
 const section = document.querySelector('.gallery-section');

@@ -10,25 +10,47 @@
 
 </head>
 <body>
-<div class="container">
-    <h1><span class="reality">Reality </span><span class="realty">Realty</span></h1>
 
-    <form class="estimator" action="homepage.html">
-        <label for="income">Monthly Income</label>
-        $<input class="income" type="number" placeholder="monthly income"><br>
-        <label for="zipcode">Zipcode</label>
-        <input type="number" placeholder="zipcode"><br>
-        <label for="email">Email</label>
-        <input type="email" placeholder="email address"><br>
-        <a href="#anchor"><input class="calculate" type="button" value="Find a House"></a>
+<div class="picture">
+    <div class="row">
+        <div class="column">
+            <h1 class="content">
+                <span class="reality">Reality</span>
+                <span class="realty">Realty</span>
+            </h1>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h3 class="call">Enter your monthly income and let us match you with the perfect budget.</h3>
+                <div class="form-wrapper">
+                    <div class="form1 form">
+                        <input type="number" class="input-income" name="income" autocomplete="off" required>
+                        <label for="income" class="label-income">
+                            <span class="content-income">Monthly Income</span>
+                        </label>
+                    </div>
+                    <div class="form2 form">
+                        <input type="text" name="zipcode" autocomplete="off" required>
+                        <label for="zipcode" class="label-zipcode"><span class="content-zipcode">Zip Code</span></label>
+                    </div>
+                    <div class="form3 form">
+                        <input type="text" name="email" autocomplete="off" required>
+                        <label for="email" class="label-email"><span class="content-email">Email</span></label>
+                    </div>
+                    <a href="#anchor"><input class="calculate" type="button" value="Find a House"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-</form>  
+</div>
         </div>
 
 <section id="anchor" class="gallery-section budget">
     <div class="house-description">
         <h1 class="bDisplay"></h1>
-        <h4>You could live here!</h1>
+        <h4 class="live-here">You could live here!</h4>
     </div>
     <div class="house-gallery">
         <img src="images/house1-big.jpg" alt="" class="gallery-highlight">
